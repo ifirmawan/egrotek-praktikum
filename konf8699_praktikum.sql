@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 20, 2019 at 11:32 PM
+-- Generation Time: Apr 25, 2019 at 11:59 AM
 -- Server version: 10.0.38-MariaDB
 -- PHP Version: 7.2.7
 
@@ -481,7 +481,13 @@ INSERT INTO `laporan` (`id`, `id_user`, `id_modul`, `id_asisten`, `tgl_praktikum
 (393, 334, 6, 350, '2019-04-09', '17101140_TT6222311_6_41735.pdf', 'maaf terlambat mengumpulkan', '2019-04-19 12:58:40', '2019-04-19 12:58:40'),
 (394, 293, 6, 405, '2019-04-09', '17101095_TT6222311_6_29562.pdf', NULL, '2019-04-19 15:57:47', '2019-04-19 15:57:47'),
 (395, 241, 6, 403, '2019-04-08', '13101035_TT6222311_6_58635.pdf', NULL, '2019-04-20 06:05:40', '2019-04-20 06:05:40'),
-(396, 292, 6, 405, '2019-04-09', '17101094_TT6222311_6_52280.pdf', 'Sudah cukup baik dalam  meberika pengarahan', '2019-04-20 13:26:27', '2019-04-20 13:26:27');
+(396, 292, 6, 405, '2019-04-09', '17101094_TT6222311_6_52280.pdf', 'Sudah cukup baik dalam  meberika pengarahan', '2019-04-20 13:26:27', '2019-04-20 13:26:27'),
+(397, 370, 6, 404, '2019-04-09', '17101180_TT6222311_6_2009.pdf', 'Peralatan dalam praktikum sudah memadai dan bagus', '2019-04-21 15:13:36', '2019-04-21 15:13:36'),
+(398, 390, 6, 403, '2019-04-08', '17101205_TT6222311_6_2783.pdf', 'modul 3 mikroprosessor', '2019-04-22 16:03:52', '2019-04-22 16:03:52'),
+(399, 357, 6, 404, '2019-04-08', '17101163_TT6222311_6_82283.pdf', 'Ketepatan Waktu saat memulai Praktikum', '2019-04-23 06:08:37', '2019-04-23 06:08:37'),
+(400, 284, 6, 401, '2019-04-09', '17101086_TT6222311_6_85411.pdf', 'pada praktikum ke 3 sudah mulai bagus', '2019-04-23 11:38:29', '2019-04-23 11:38:29'),
+(401, 218, 6, 400, '2019-03-26', '17101055_TT6222311_6_57737.pdf', 'terimakasih dan mohon maaf atas keterlambatanya', '2019-04-24 04:24:11', '2019-04-24 04:24:11'),
+(402, 219, 6, 401, '2019-04-09', '17101056_TT6222311_6_54127.pdf', 'butuh waktu lebih banyak untuk membahas script', '2019-04-24 09:04:28', '2019-04-24 09:04:28');
 
 -- --------------------------------------------------------
 
@@ -964,11 +970,11 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 (286, 'ANDI PRASETYO', '17101088@ittelkom-pwt.ac.id', NULL, '$2y$10$hdC9F4Hs6cRMQ4tVZHXBgO/AxuakTHi02cP7uM5sftSxp9wBWbLMu', NULL, '2019-03-17 23:37:01', '2019-03-17 23:37:01', '17101088_5546.png', NULL, 3, '17101088', 0, 0),
 (287, 'ARIQ MUHAMMAD RIZQY', '17101089@ittelkom-pwt.ac.id', NULL, '$2y$10$TLq35a0tW9zvUHokzSnwb.D1ER/vx7R9TTP98x5JTdBmsEaPwPjJi', NULL, '2019-03-17 23:37:01', '2019-03-17 23:37:01', '17101089_404.png', NULL, 3, '17101089', 0, 0),
 (288, 'BAGUS ARDIANSYAH', '17101090@ittelkom-pwt.ac.id', NULL, '$2y$10$a/wiW.y1DJLLYpbfc.4nPesvuLS7UJYaR6SQPGNV5E/AbHsQrX21S', 'nazYj7NJE3s4JC8z5id5GPasr1VciroPFJldWV2VtHIqA0voxPzw5zgAtiYP', '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101090_3867.png', NULL, 3, '17101090', 0, 0),
-(289, 'DANIERA SHIFNA TAQIYYA', '17101091@ittelkom-pwt.ac.id', NULL, '$2y$10$lCBbbwdrHF9Ga6ZJnxVRMODjLrGaiOnuKLsSp/u4AWOKvCW2J7cGC', 'IJkVyAkBtoxyFZ1LGw7W45DZz5Vvsux82xSqdvCggVcil7OHuvP8ndTW1udj', '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101091_938.png', NULL, 3, '17101091', 0, 0),
+(289, 'DANIERA SHIFNA TAQIYYA', '17101091@ittelkom-pwt.ac.id', NULL, '$2y$10$lCBbbwdrHF9Ga6ZJnxVRMODjLrGaiOnuKLsSp/u4AWOKvCW2J7cGC', 'qPlTwrK4lebOodiQvdLQuPfDKeALOk4PpnaFyAFd6MYIG0UPr2PfForcLqrg', '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101091_938.png', NULL, 3, '17101091', 0, 0),
 (290, 'DIAZ BAGUS RENALDY', '17101092@ittelkom-pwt.ac.id', NULL, '$2y$10$MK21vmtcRxU1kn8kk30Hm.7ksFwUHrzRGeVxNpvBa86Cy3S5BHBBy', NULL, '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101092_6810.png', NULL, 3, '17101092', 0, 0),
 (291, 'DIYAH FEMILIA', '17101093@ittelkom-pwt.ac.id', NULL, '$2y$10$Ip/ZYFi.ygHDtWIZZuoDyOqzIBPWcNe0BaHFNYNpaIiYF8tE8KM7i', NULL, '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101093_719.png', NULL, 3, '17101093', 0, 0),
 (292, 'EKA YUNI ARSIH', '17101094@ittelkom-pwt.ac.id', NULL, '$2y$10$a.KvCYXoceQvQUyrTHH6VOgHZ1Cba5unNo/DvyXgy579OYRvsZiAe', 'M1Xwzsn3pArI4TdzvYI19Me05cEorerkYv0YrtOdWtyQO69xROyUyaGRFqBY', '2019-03-17 23:37:02', '2019-03-17 23:37:02', '17101094_7307.png', NULL, 3, '17101094', 0, 0),
-(293, 'ERVAN FAJAR', '17101095@ittelkom-pwt.ac.id', NULL, '$2y$10$/14c0SbdJVAVI9pFpzZ/xewFr43wdLbTYUlCha4khNLLXun.7YY.y', 'tjxxd3pOUgnvDY9jpn4YU5ETenWciLZC9jLBgICyY1mZX2BcQR2NSVQljcM4', '2019-03-17 23:37:03', '2019-03-17 23:37:03', '17101095_8612.png', NULL, 3, '17101095', 0, 0),
+(293, 'ERVAN FAJAR', '17101095@ittelkom-pwt.ac.id', NULL, '$2y$10$/14c0SbdJVAVI9pFpzZ/xewFr43wdLbTYUlCha4khNLLXun.7YY.y', 'd8B08cVK5XKgdDTtcQlRN27rTHvli0BrVMab5QgYbuhMAsITBaLBwTVBTA5Q', '2019-03-17 23:37:03', '2019-03-17 23:37:03', '17101095_8612.png', NULL, 3, '17101095', 0, 0),
 (294, 'FATHURROZAQ FADLAN', '17101096@ittelkom-pwt.ac.id', NULL, '$2y$10$CxbGTSCp/TCi7LkTVipJGuKeWOxNA/PyGvsbXNfomuFvCnwx2AoA.', NULL, '2019-03-17 23:37:03', '2019-03-17 23:37:03', '17101096_8145.png', NULL, 3, '17101096', 0, 0),
 (295, 'FERRY ERWANTO', '17101097@ittelkom-pwt.ac.id', NULL, '$2y$10$JgJ/ogPWRdsjejHpsnh0DOBXIjhuW8BCRsXJGGzg7Pt2dmBPruis2', NULL, '2019-03-17 23:37:03', '2019-03-17 23:37:03', '17101097_6044.png', NULL, 3, '17101097', 0, 0),
 (296, 'GANTENG SIGIT LAZUARDI', '17101098@ittelkom-pwt.ac.id', NULL, '$2y$10$8KpzBBQJ5CmNgEEx8RV9IOlQq4JCzA6tLrmbAWmSUbh0m4LAvic8y', NULL, '2019-03-17 23:37:03', '2019-03-17 23:37:03', '17101098_8878.png', NULL, 3, '17101098', 0, 0),
@@ -1005,7 +1011,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 (327, 'DEARA DWI RAHMADANI', '17101132@ittelkom-pwt.ac.id', NULL, '$2y$10$AiwinHIXD9WUEE6DbqWr5uhK9GTPQWvB7M0qRU5cU1VLjTYSQxLvi', NULL, '2019-03-17 23:37:11', '2019-03-17 23:37:11', '17101132_6594.png', NULL, 3, '17101132', 0, 0),
 (328, 'DIKKO PRAMUDYA', '17101133@ittelkom-pwt.ac.id', NULL, '$2y$10$JXZk8bumZhUXO.hojmyLu.Nh37UjjxPIbOQRIvxSPt6RD42F4K9pm', NULL, '2019-03-17 23:37:11', '2019-03-17 23:37:11', '17101133_5329.png', NULL, 3, '17101133', 0, 0),
 (329, 'DONNY ARIEF OKTAVIAN', '17101134@ittelkom-pwt.ac.id', NULL, '$2y$10$Om9R.zVWdifK8Yp2JhHAwu698u/HcDS.Dnqca7T..sR7k6ypKmPwG', NULL, '2019-03-17 23:37:11', '2019-03-17 23:37:11', '17101134_7107.png', NULL, 3, '17101134', 0, 0),
-(330, 'EKO BAYU GALIH SETIAWAN', '17101135@ittelkom-pwt.ac.id', NULL, '$2y$10$kjlooPutc.UoBQjkalFeWO7V4420hRecL805V8D7NTZ8j6Isbt9tu', 'l0HgLBjnOzHaZXOBFttSh54bxyWMnPmCvw19PKMDkVlbgmnyLjbB7piMX7Q8', '2019-03-17 23:37:11', '2019-03-17 23:37:11', '17101135_6919.png', NULL, 3, '17101135', 0, 0),
+(330, 'EKO BAYU GALIH SETIAWAN', '17101135@ittelkom-pwt.ac.id', NULL, '$2y$10$kjlooPutc.UoBQjkalFeWO7V4420hRecL805V8D7NTZ8j6Isbt9tu', '5GvuMlVeXo5FxQeU3qqRP4elWW9Wg7vuBchu5TDjA24ifZnX7T3bfXJCtWXL', '2019-03-17 23:37:11', '2019-03-17 23:37:11', '17101135_6919.png', NULL, 3, '17101135', 0, 0),
 (331, 'ERWIN STEVE FERNANDO SIHOMBING', '17101136@ittelkom-pwt.ac.id', NULL, '$2y$10$hXJEJ6Ety9Y4kD6E2V85P.9hVrnpqlcEdyY.0n5INuKkvamc80Fmy', NULL, '2019-03-17 23:37:12', '2019-03-17 23:37:12', '17101136_2696.png', NULL, 3, '17101136', 0, 0),
 (332, 'FAUZUHRI SAEFUL MANAF', '17101137@ittelkom-pwt.ac.id', NULL, '$2y$10$67OaTv8m.zjm8SKKkU/Vn.Sn/ht0MJOk99yODjRPrtxay8D2/ZsJS', NULL, '2019-03-17 23:37:12', '2019-03-17 23:37:12', '17101137_115.png', NULL, 3, '17101137', 0, 0),
 (333, 'GERALD KENCANA SRI BUANA', '17101139@ittelkom-pwt.ac.id', NULL, '$2y$10$sNv6JYhPmCE/TIpeIW3NwuHEsy7hOD6kHGz7kQKEwbEJqMI7AhEkm', NULL, '2019-03-17 23:37:12', '2019-03-17 23:37:12', '17101139_8331.png', NULL, 3, '17101139', 0, 0),
@@ -1024,7 +1030,7 @@ INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `re
 (346, 'NAJIB MA\'RUF', '17101152@ittelkom-pwt.ac.id', NULL, '$2y$10$5MP.Yv2Jt7YHhmi97zr2hut4KMX4qV.UkR/ttn1BX4xfuKxFKtQ2e', NULL, '2019-03-17 23:37:16', '2019-03-17 23:37:16', '17101152_7345.png', NULL, 3, '17101152', 0, 0),
 (347, 'NURHAJIAWATI PATADUNGAN', '17101153@ittelkom-pwt.ac.id', NULL, '$2y$10$dWHQtucGpYf5PbkMf8.xneypuFbpleKLog.9EGW2H9zR0eGn1YKuC', NULL, '2019-03-17 23:37:16', '2019-03-17 23:37:16', '17101153_722.png', NULL, 3, '17101153', 0, 0),
 (348, 'QUEENTA PARADISSA RAMADHANI', '17101155@ittelkom-pwt.ac.id', NULL, '$2y$10$fDARe5EEub5cTUGxO31FCebWLRx0qrmepQSSjYxFQs6qCmitMZ.m.', NULL, '2019-03-17 23:37:16', '2019-03-17 23:37:16', '17101155_8771.png', NULL, 3, '17101155', 0, 0),
-(349, 'RAMZI ALIY AFIF', '17101156@ittelkom-pwt.ac.id', NULL, '$2y$10$dtJJDdy1iJqJ6t0Upf2sduvuhAce6OQs1uZC8nfW.GkbeujI4UVei', '4N0tjWcbf3BwIYPX5xwErBAtOLvRinsVsNCIF6YYZ7GEzyecbmTBCFOFZlFX', '2019-03-17 23:37:16', '2019-03-17 23:37:16', '17101156_6488.png', NULL, 3, '17101156', 0, 0),
+(349, 'RAMZI ALIY AFIF', '17101156@ittelkom-pwt.ac.id', NULL, '$2y$10$dtJJDdy1iJqJ6t0Upf2sduvuhAce6OQs1uZC8nfW.GkbeujI4UVei', 'KxfE06VhMLIdp0ehb2wtNMgUj9S0JRZuSexdFayvImIA9U9FlSHZZzWPCQpb', '2019-03-17 23:37:16', '2019-03-17 23:37:16', '17101156_6488.png', NULL, 3, '17101156', 0, 0),
 (350, 'RIFANI AULIANA', '17101157@ittelkom-pwt.ac.id', NULL, '$2y$10$e.PDHnyGZp/ORoMGQ.Egeec72Rxx.stjps71dDDejBs9AmdDb.K0e', NULL, '2019-03-17 23:37:17', '2019-03-17 23:37:17', '17101157_12.png', NULL, 3, '17101157', 1, 0),
 (351, 'RIZQI MULYA ISKANDAR', '17101158@ittelkom-pwt.ac.id', NULL, '$2y$10$i.t7opqqQZ4P9U0kVRGPCu1RxlGOvpSjiA7Wx06iPRVvBCYxsoFeS', NULL, '2019-03-17 23:37:17', '2019-03-17 23:37:17', '17101158_7403.png', NULL, 3, '17101158', 0, 0),
 (352, 'SALSABILA ZAIN GUNAWAN', '17101159@ittelkom-pwt.ac.id', NULL, '$2y$10$0CJU8jyhQQNrN/5Cs27DwuD.WVQgUn9Z2BioszYiyDka4pIGxeNCG', '7P9PXLEzcMXoGcbyaGO2M9KMFgVMjZ8a1EjwBKJWERjgQieUUkEV543Dk7MO', '2019-03-17 23:37:17', '2019-03-17 23:37:17', '17101159_9527.png', NULL, 3, '17101159', 0, 0),
@@ -1170,7 +1176,7 @@ ALTER TABLE `kelas`
 -- AUTO_INCREMENT for table `laporan`
 --
 ALTER TABLE `laporan`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=397;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=403;
 
 --
 -- AUTO_INCREMENT for table `mata_kuliah`
